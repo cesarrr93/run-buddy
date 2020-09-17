@@ -248,5 +248,11 @@ section {
     line-height: 1.3;
 }
 
-/* STELYING REACH OUT */
-
+/* STYLING REACH OUT */
+.contact {
+    text-align: center;
+    background: #024e76;
+}
+.contact h2 {
+    color: #fce138;
+}
