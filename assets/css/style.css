@@ -12,6 +12,7 @@ body {
 }
 
 /* APPLYING STYLE TO HEADER> */
+/*Added Flex Box to header*/
 header {
     display: flex;
     justify-content: space-between;
@@ -43,12 +44,19 @@ header nav {
 header nav ul li {
     display: inline;
 }
-
+/*New Addition for flex style*/
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    list-style: none;
+}
 /* more styling to header nav ul li a */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 /*HEADER STYLING ENDS*/
 
