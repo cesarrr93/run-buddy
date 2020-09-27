@@ -296,7 +296,17 @@ section {
     font-size: 17px;
 
 }
-
+/*Addind service plan*/
+.service-grid-container {
+    display: grid;
+}
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
 /* STYLING REACH OUT */
 .contact{
     background: #024e76;
