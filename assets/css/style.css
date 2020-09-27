@@ -432,3 +432,28 @@ section {
   }
  /*ENDS Media querie for 768px*/
 
+ /*Media querie at 575px*/
+ @media screen and (max-width: 575px) {
+    .hero-form button {
+        width: 100%;
+    }
+    .section-title {
+        width: 95%;
+    }
+    .intro p {
+        width: 100%;
+    }
+    .trainer {
+        flex: 0 100%;
+    }
+    .contact-info {
+        text-align: center;
+    }
+    .contact-info > * {
+        flex: 0 100%;
+    }
+    .contact-form {
+        order: 3;
+    }
+}
+/*ENDS Media querie for 575px*/
