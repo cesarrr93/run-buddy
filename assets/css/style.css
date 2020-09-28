@@ -244,7 +244,7 @@ section {
     border-left: 2px solid var(--secondary-color) ;
     border-bottom: 2px solid var(--secondary-color) ;
     position: absolute;
-    left: -26px;
+    left: -24px;
     top: 1px;
     transform: rotate(-58deg);
 }
@@ -380,6 +380,36 @@ section {
 
 .trainer-bio p {
     font-size: 17px;
+
+}
+
+.trainer-img {
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    width: 100%;
+    min-height: 300px;
+}
+.trainer-img::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(252, 225, 56, 0.3);
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .trainer-1 {
+    background-image: url(../images/trainer-1.jpg);
+    background-size: cover;
+}
+.trainer-2 {
+    background-image: url(../images/trainer-2.jpg);
+    background-size: cover;
+}
+.trainer-3 {
+    background-image: url(../images/trainer-3.jpg);
+    background-size: cover;
 
 }
 /*Addind service plan*/
